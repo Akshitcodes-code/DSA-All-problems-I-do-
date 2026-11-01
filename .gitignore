@@ -1,0 +1,15 @@
+# Ignore all python cache folders
+**/__pycache__/
+
+# Ignore compiled python files
+*.pyc
+*.pyo
+*.pyd
+# Ignore VS Code configuration directory
+.vscode/
+
+# Ignore C++ compiled executables
+*.exe
+*.out
+*.o
+*.obj
