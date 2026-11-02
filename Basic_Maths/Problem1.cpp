@@ -10,3 +10,10 @@ int countdigits(int n){
     while(n>0);
     return count;
 }
+
+int main(){
+    int n;
+    printf("Enter a number: ");
+    scanf("%d",&n);
+    printf("Number of digits in %d is %d", n, countdigits(n));
+}

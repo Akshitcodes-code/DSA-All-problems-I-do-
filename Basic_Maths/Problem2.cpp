@@ -13,3 +13,10 @@ int countOddDigit(int n){
     return count;
 
 }
+
+int main(){
+    int n;
+    printf("Enter a number: ");
+    scanf("%d",&n);
+    printf("Number of odd digits in %d is %d", n, countOddDigit(n));
+}

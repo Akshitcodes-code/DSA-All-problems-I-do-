@@ -12,3 +12,9 @@ int reverseNumber(int n) {
 
     return reversed;
 }
+
+int main(){
+    int n;
+    printf("Enter a number: ");
+    scanf("%d",&n);
+    printf("Reverse of %d is %d", n, reverseNumber(n));
